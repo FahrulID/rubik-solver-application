@@ -1,1 +1,1 @@
-web: python start_server.py
+worker: python start_server.py
