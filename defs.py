@@ -31,7 +31,7 @@ N_TWIST = 2187  # 3^7 possible corner orientations in phase 1
 N_FLIP = 2048  # 2^11 possible edge orientations in phase 1
 N_SLICE_SORTED = 11880  # 12*11*10*9 possible positions of the FR, FL, BL, BR edges in phase 1
 N_SLICE = N_SLICE_SORTED // N_PERM_4  # we ignore the permutation of FR, FL, BL, BR in phase 1
-N_FLIPSLICE_CLASS = 40320  # number of equivalence classes for combined flip+slice concerning symmetry group D4h
+N_FLIPSLICE_CLASS = 10000  # number of equivalence classes for combined flip+slice concerning symmetry group D4h
 
 N_U_EDGES_PHASE2 = 1680  # number of different positions of the edges UR, UF, UL and UB in phase 2
 # N_D_EDGES_PHASE2 = 1680  # number of different positions of the edges DR, DF, DL and DB in phase 2
